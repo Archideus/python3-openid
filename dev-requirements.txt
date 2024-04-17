@@ -11,3 +11,4 @@ mysqlclient ; python_version >= '3.3'
 psycopg2cffi
 pycrypto
 pycurl
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability

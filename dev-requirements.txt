@@ -5,9 +5,11 @@ coveralls
 # Package dependencies -- keep these reasonably up to date, if not bleeding-
 # edge -- also try to maintain compatibility with all the Python versions we
 # support
-Django>=1.10
+Django>=4.2.21
 httplib2
 mysqlclient ; python_version >= '3.3'
 psycopg2cffi
 pycrypto
 pycurl
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
